@@ -1,0 +1,110 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+
+.button {
+  text-align: center;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: small;
+  font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 60px;
+}
+
+textarea {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.copybtn {
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: x-small;
+  font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+/* .toggle {
+
+} */
+
+@media (min-width: 600px) {
+  h1,
+  h2 {
+    font-size: x-large;
+  }
+
+  .btn {
+    font-size: medium;
+  }
+
+  textarea {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 850px) {
+  h1,
+  h2 {
+    font-size: xx-large;
+  }
+
+  .btn {
+    font-size: large;
+  }
+
+  textarea {
+    font-size: large;
+  }
+}
