@@ -3,7 +3,7 @@ const background = document.body.style;
 const textColor = document.querySelector(".hexcode");
 const textColor2 = document.querySelector(".hexcode2");
 const angle = document.querySelector(".angle");
-const button = document.querySelector(".btn");
+const button = document.getElementById("btn");
 
 //Selects a random number from the hex array defined above
 function getRandom() {

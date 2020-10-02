@@ -6,6 +6,12 @@ body {
   margin: 0;
 }
 
+.top {
+  display: flex;
+ justify-content: space-around;
+ margin-bottom: 50px;
+}
+
 h1 {
   background-color: black;
   color: white;
@@ -72,9 +78,22 @@ textarea {
   border: 2px solid black;
   font-size: x-small;
   font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
-  margin: 10px;
+  margin:20px 0 10px 0;
 }
 
+.next {
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: x-small;
+  font-family: "Lexend Peta", sans-serif, Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
 
 @media (max-width: 600px) {
   
